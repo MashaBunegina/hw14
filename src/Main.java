@@ -13,7 +13,7 @@ public class Main {
 
 
         Author nameAuthor = new Author("Александр", "Пушкин");
-        System.out.println("nameAuthor.name = " + nameAuthor.name);
-        System.out.println("nameAuthor.surname = " + nameAuthor.surname);
+        System.out.println("nameAuthor.name = " + nameAuthor.getname());
+        System.out.println("nameAuthor.surname = " + nameAuthor.getSurname());
     }
 }

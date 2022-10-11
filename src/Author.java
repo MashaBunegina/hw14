@@ -6,6 +6,13 @@ public class Author {
         this.name = "Александр";
         this.surname = "Пушкин";
     }
+    public String getname () {
+        return this.name;
+
+    }
+    public String getSurname () {
+        return this.surname;
+    }
 
     }
 
