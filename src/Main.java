@@ -11,8 +11,9 @@ public class Main {
         System.out.println("autumn.getPublishingYear =" + autumn.getPublishingYear());
         System.out.println("blizzard.getPublishingYear =" + blizzard.getPublishingYear());
 
-    Author author =  new Author("Александр Пушкин");
-        System.out.println( "author.NameAuthor = " + author.NameAuthor);
-    }
 
+        Author nameAuthor = new Author("Александр", "Пушкин");
+        System.out.println("nameAuthor.name = " + nameAuthor.name);
+        System.out.println("nameAuthor.surname = " + nameAuthor.surname);
+    }
 }

@@ -1,8 +1,11 @@
 public class Author {
-    String NameAuthor = "Александр Пушкин";
+    String name;
+    String surname;
 
-    public Author(String NameAuthor) {
-        this.NameAuthor = NameAuthor;
+    public Author(String name, String surname) {
+        this.name = "Александр";
+        this.surname = "Пушкин";
+    }
 
     }
-}
+
