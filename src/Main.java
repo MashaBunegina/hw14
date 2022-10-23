@@ -7,8 +7,8 @@ public class Main {
         System.out.println("Author.surname = " + Pushkin.getSurname());
         System.out.println("Author.name = " + Tolstoy.getName());
         System.out.println("Author.surname = " + Tolstoy.getSurname());
-
-
+        System.out.println(Pushkin);
+        System.out.println(Tolstoy);
         Book autumn = new Book("Осень", 1815, Pushkin);
 
         System.out.println("autumn name = " + autumn.getTittle());
@@ -20,6 +20,8 @@ public class Main {
         System.out.println("autumn.getPublishingYear =" + autumn.getPublishingYear());
         System.out.println("blizzard.getPublishingYear =" + Blizzard.getPublishingYear());
         System.out.println("Author = " + Blizzard.getAuthor().getName() + " " + Blizzard.getAuthor().getSurname());
+        System.out.println(Blizzard);
+        System.out.println(autumn);
 
 
 
